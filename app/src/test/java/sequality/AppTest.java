@@ -12,4 +12,16 @@ public class AppTest {
         App classUnderTest = new App();
         assertEquals("Hello World!", classUnderTest.getGreeting());
     }
-}
+    public void testAppaverage() {
+        App classUnderTest = new App();
+        assertEquals("Sum of 2 and 3 is 5. Average is 2.5.", classUnderTest.getave());
+    }
+    public void testAppaverage2() {
+        App classUnderTest = new App();
+        assertEquals("Sum of 1 and 10 is 55. Average is 5.5.", classUnderTest.getave2());
+    }
+    public void testAppoddeven() {
+        App classUnderTest = new App();
+        assertEquals("Sum of odd of 1 to 10 is 25. Sum of even is 30.", classUnderTest.getoddeven());
+    } 
+}        
